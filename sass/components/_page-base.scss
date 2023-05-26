@@ -1,0 +1,15 @@
+.container {
+  max-width: 1200px;
+  width: $fullWidth;
+  margin: 0 auto;
+}
+.section {
+  padding: 94px 0;
+  &__text {
+    font-family: $fontFamilyPrimary;
+    font-size: 36px;
+    font-weight: getWeight('bold');
+    line-height: 1.2;
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: $fontFamilyPrimary;
+  background-color: getColor('light');
+  letter-spacing: $letterSpacing;
+}
+ul {
+  list-style: $defaultNone;
+  padding-inline-start: 0px;
+}
+a {
+  text-decoration: $defaultNone;
+  color: getColor('secondary');
+}
+p {
+  color: getColor('medium');
+}
+input {
+  border: $defaultNone;
+  outline: $defaultNone;
+}

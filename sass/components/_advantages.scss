@@ -1,0 +1,44 @@
+.advantages {
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  width: 100%;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: getColor("page-quarternary-background-color");
+
+  &__icon-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  &__item {
+    background-color: getColor("page-tertiary-background-color");
+    border-radius: 4px;
+    padding: 25px 100px;
+  }
+  &__description-list {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 30px;
+  }
+
+  /*heading of lorem ipsum section in index.html*/
+  &__title {
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: getColor("text-primary-color");
+  }
+  /*dedcription of lorem ipsum section in index.html*/
+  &__text {
+    color: getColor("text-secondary-color");
+    line-height: 1.71;
+    margin-top: 10px;
+  }
+}

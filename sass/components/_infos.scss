@@ -1,0 +1,33 @@
+.infos {
+  padding-bottom: 0;
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+  &__rect {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: getColor('bg_light');
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+}
+.infos__icon {
+  width: 70px;
+  height: 70px;
+}
+.infos__title {
+  font-family: $fontFamilyPrimary;
+  font-size: 14px;
+  font-weight: getWeight('bold');
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.infos__text {
+  font-size: 14px;
+  line-height: 1.7;
+  padding-top: 10px;
+}

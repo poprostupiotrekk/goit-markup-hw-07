@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: getColor("text-primary-color");
+  background-color: getColor("page-primary-background-color");
+}
+svg {
+  display: block;
+}
+img {
+  display: block;
+}
+/* dots deleted from uls :)*/
+ul {
+  list-style-type: none;
+}
+/* extra class for main div in each section of index.html and portfolio.html*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &--white {
+    background-color: getColor("page-quarternary-background-color");
+  }
+  &--bottom-fixed {
+    padding-bottom: 0;
+  }
+  &--fixed {
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+header {
+  background-color: getColor("object-secondary-background-color");
+  border-bottom: 1px solid getColor("header-border-bottom-color");
+  position: relative;
+}
+footer {
+  background-color: getColor("page-secondary-background-color");
+}
+.top-menu {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

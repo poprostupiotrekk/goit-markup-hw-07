@@ -1,0 +1,27 @@
+.top-line {
+  border-top: 1px solid getColor('border');
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 50px;
+  &__filter {
+    cursor: pointer;
+    color: getColor('primary');
+    background-color: getColor('bg_light');
+    font-weight: getWeight('medium');
+    line-height: 1.6;
+    padding: 6px 22px;
+    border: $defaultNone;
+    border-radius: 4px;
+    transition: $hoverTransition;
+    &:hover,
+    &:focus {
+      color: getColor('light');
+      background-color: getColor('secondary');
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
+}

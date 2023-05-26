@@ -1,0 +1,27 @@
+.activities,
+.customers {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.activities__img {
+  position: relative;
+  display: inline-flex;
+}
+.activities__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 82px;
+}
+.activities__text {
+  font-family: $fontFamilyPrimary;
+  font-size: 14px;
+  font-weight: getWeight('bold');
+  line-height: 1.1;
+  color: getColor('light');
+  text-align: center;
+  text-transform: uppercase;
+}

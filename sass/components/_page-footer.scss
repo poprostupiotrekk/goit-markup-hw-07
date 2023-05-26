@@ -1,0 +1,77 @@
+.page-footer {
+  padding: 56px 0;
+  background-color: getColor('bg_dark');
+  &__title {
+    font-size: 14px;
+    font-weight: getWeight('heavy');
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: getColor('light');
+    padding-top: 12px;
+  }
+}
+.container__page-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.addr {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  padding-top: 11px;
+  color: getColor('light');
+  &__line {
+    padding-top: 9px;
+  }
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 10px;
+}
+.footer-social__icon {
+  cursor: pointer;
+  fill: getColor('light');
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  border-radius: 50%;
+  transition: $hoverTransition;
+  &:hover {
+    fill: getColor('light');
+    background-color: getColor('secondary');
+  }
+}
+.footer-nsltr {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 12px;
+  &__icon {
+    margin-left: 24px;
+  }
+}
+.footer-nsltr__email {
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.6);
+  width: 358px; /* should be 369px for proper aligning in my project */
+  height: 50px;
+  padding-left: 16px;
+  background-color: getColor('bg_dark');
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  &:focus {
+    outline: $defaultNone;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+.footer-nsltr__btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px 10px 42px;
+  fill: getColor('light');
+}
