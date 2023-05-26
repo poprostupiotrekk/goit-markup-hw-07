@@ -1,10 +1,11 @@
 .top-container {
-  background-color: getColor("page-secondary-background-color");
   background-image: url("../images/background-image.jpg"),
-    linear-gradient(
-      getColor("background-color-for-gradient"),
-      getColor("background-color-for-gradient")
-    );
+  linear-gradient(
+    getColor("background-color-for-gradient"),
+    getColor("background-color-for-gradient")
+  );
+  background-color: getColor("page-secondary-background-color");
+ 
   background-size: 1600px auto;
   background-repeat: no-repeat;
   background-position: center;
